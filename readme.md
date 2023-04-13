@@ -7,12 +7,11 @@
 
 ## [What is terraform](https://developer.hashicorp.com/terraform/intro)
 
-
 ## Terraform output
 terraform output to ouput information for usage [example](https://youtu.be/SLB_c_ayRMo?t=6846)
-## Things to note
+## Additional info
 State Terraform ini menyimpan state untuk tracking status resource, state ini penting agar terraform tahu apa yang perlu diubah setiap ada perubahan code tf
-Terraform State terraform.tfstate tidak push ke github karena mengandung data sensitive  
+Terraform State terraform.tfstate tidak push ke github karena mengandung data sensitive, jika ada orang lain yang manage code ini, state nya juga perlu dishare via remote state  
 
 With remote state, Terraform writes the state data to a remote data store, which can then be shared between all members of a team. Terraform supports storing state in [Terraform Cloud][Terraform cloud], HashiCorp Consul, Amazon S3, Azure Blob Storage, Google Cloud Storage, Alibaba Cloud OSS, and more.
 

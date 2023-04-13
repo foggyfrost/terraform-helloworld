@@ -7,6 +7,9 @@
 
 ## [What is terraform](https://developer.hashicorp.com/terraform/intro)
 
+
+## Terraform output
+terraform output to ouput information for usage [example](https://youtu.be/SLB_c_ayRMo?t=6846)
 ## Things to note
 State Terraform ini menyimpan state untuk tracking status resource, state ini penting agar terraform tahu apa yang perlu diubah setiap ada perubahan code tf
 Terraform State terraform.tfstate tidak push ke github karena mengandung data sensitive  

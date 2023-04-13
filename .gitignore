@@ -1,0 +1,5 @@
+do.tfvars.exmaple
+.terraform
+.terraform.lock.hcl
+*.tfvars
+*.tfstate*
